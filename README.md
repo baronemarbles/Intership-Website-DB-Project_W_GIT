@@ -1,4 +1,4 @@
-# Intership-Website-DB-Project_W_GIT
+# Intership-Website-DB-Project_
 
 
 This proejct is being directed by me and my intership supervisor and we aim to create a database system that stores the company devices and that can be acessed remotelly. So it can allow 
