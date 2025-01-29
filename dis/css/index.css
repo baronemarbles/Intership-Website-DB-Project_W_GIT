@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../imgs/bg_invertido.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin: 35px;
+}
+
+/*Começo Barra scroll*/
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/*fim barra scroll*/
+#legenda_delete {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#logo_on_page {
+  width: 320px;
+  display: flex;
+  justify-self: center;
+  margin-bottom: 5px;
+}
+
+.centralized {
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  position: static;
+  letter-spacing: 2.5px;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

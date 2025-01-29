@@ -1,0 +1,49 @@
+@import "_variables.scss";
+/*Menu Navegação*/
+
+.navmenu{
+    background-color:$bg_white;
+    height: fit-content;
+    width: max-content;
+    border-radius:18px;
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navmenu a{
+    float:left;
+    display:block;
+    color:black;
+    text-align: center;
+    /*border-radius: 12px;*/ 
+    
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in;
+    }
+
+.navmenu a:hover{
+    background-color: $navMenu_ShadowHover;
+    
+}
+
+.navmenu .icon{
+    display:none;
+}
+
+#registrar{
+    background-color:  $verde_limao;
+    height: 100%;
+    color:black;
+    transition: background-color .2s ease-in;
+}
+
+#registrar:hover{
+ background-color:$verde_limao_darker;
+}

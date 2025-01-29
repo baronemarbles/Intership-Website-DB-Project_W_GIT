@@ -1,0 +1,20 @@
+@import "_global.scss";
+@import "_fonts.scss";
+@import "_logo.scss";
+@import "_centralized.scss" ;
+
+
+h1{
+    text-align: center;
+    position: static;
+    letter-spacing: 2.5px;
+    color:white;
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 1.5px;
+    color:black;
+}

@@ -1,0 +1,116 @@
+/*Começo menu perfil*/
+
+
+.accountMenuContainer{
+    height: max-content;
+    width: max-content;
+    /*border: 2px solid red;*/
+    justify-self: right;
+    margin-left:0px;
+    
+}
+
+
+
+
+.icon{
+    position:relative;
+    width:150px;
+    height: 50px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white,rgb(231, 231, 231));
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 17px;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+    cursor: pointer; 
+
+}
+
+.icon_container{
+    position: relative;
+    /*border: 2px solid orange;*/
+    /*background-color: #e0e0e0;*/
+    height: fit-content;     
+    width:150px;
+    justify-self: center;
+    
+   
+    
+}
+
+.items_icons{
+    height: 16px;
+    width:16px;
+    align-content: left;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.icon_container .icone_esq, .icon .icone_dir{
+    position:relative;
+    display:inline-block;
+    width: 15px;
+    height:5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.icon_container .icone_esq{
+    left:7px;
+    transform: rotate(45deg);
+}
+
+.icon_container.active .icone_esq{
+    transform: rotate(135deg);
+}
+
+.icon_container .icone_dir{
+    transform: rotate(-45deg);
+}
+
+.icon_container.active .icone_dir{
+    transform: rotate(-135deg);
+}
+
+
+.items{
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+ .items a{
+    position: relative;
+    display: flex;
+    width: 150px;
+    margin-top:7px;
+    justify-content: center;
+    padding: 8px;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: .5s ;
+    transition-delay: calc(60ms*var(--i));
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    left:105%;
+    
+    
+    
+}
+
+.icon_container.active .items a{
+    left: 0%;
+}
+
+
+
+/*fim menu perfil*/

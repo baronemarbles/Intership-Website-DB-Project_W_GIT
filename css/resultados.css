@@ -1,0 +1,356 @@
+/*fontes*/
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.fonteteste{
+    font-family: monospace;
+    font-weight: 400px;
+    font-style: normal;
+}
+/*fim fontes*/
+
+/*Começo Barra scroll*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255, 255, 255, 10%);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+    border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 35%); 
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 45%); 
+}
+
+/*fim barra scroll*/
+
+
+
+body{
+
+    background-image: url("https://media3.giphy.com/media/xUA7b5CaXmYxvZXfCU/giphy.gif?cid=6c09b95256lm98wq86a68fpoivyzcx8y4om1p40xx3wsv3r3&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+    background-blend-mode:exclusion;
+    background-color: white;
+    background-size:cover;
+    
+    background-attachment: scroll;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    margin:35px;
+    /*background-image: linear-gradient(rgb(255, 255, 255) 50%,rgb(166, 157, 255) 100%) ;*/
+    color:white;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+h1{
+    text-align: center;
+    
+    position: static;
+    letter-spacing: 2.5px;
+    color:white;
+    /*text-shadow: 0 0 20px purple;*/
+    
+}
+
+
+
+#logo_on_page{
+    width:320px;
+    display:flex;
+    justify-self: center;
+    margin-bottom:5px;
+    
+    
+}
+
+/*resultados*/
+
+.p{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    color:black;
+    width:max-content;
+    
+   
+  
+
+}
+
+#ultimo{
+    margin-bottom: 0px;
+}
+
+
+.p_resultados{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:max-content;
+    box-sizing:border-box;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top:0;
+    color:black;
+    
+   
+}
+.container{
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 12px;
+    height:fit-content;
+    width: max-content;
+    padding:10px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    margin-bottom: 7%;
+    margin-inline: auto;
+    box-shadow: 0px 0px 7px black;
+}
+
+.legenda{
+    color:rgb(174, 0, 243);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bttn_voltar{
+background-color:black;
+border: 1px solid white;
+box-sizing:border-box;
+padding:10px;
+height:min-content;
+width: min-content;
+scale:150%;
+border-radius: 20px;
+
+}
+
+
+#back_buttn{
+    display:flex;
+    justify-self: center;
+}
+
+#bk_buttn{
+    height:48px;
+    width:98px;
+    border: 2px solid white;
+    border-radius: 42px;
+    transition: background-color .2s ease-in-out; 
+    
+    }
+    
+    #bk_buttn:hover{
+        background-color: gainsboro;
+        border: 2px solid gainsboro;
+    }
+
+    /*Começo da configuração da Tabela*/
+
+    th{
+        letter-spacing: 1.5px;
+        border-bottom: 1px solid;
+        background-image: linear-gradient(270deg,rgb(49, 49, 49),rgb(32, 32, 32));
+        text-shadow: 0px 0px 5px black;
+        position: sticky;
+        top:0;
+ 
+        
+    }
+
+    td{
+        text-align: center;
+        border-bottom: 1px solid;
+        background-image: linear-gradient(90deg, rgb(222,222,222),rgb(192, 192, 192));
+        
+
+    }
+    
+    table,td,th{
+        border: 1px solid;
+        width:150px;
+        border: 1px solid black;
+        
+        
+        
+  
+    }
+
+    .info_tabela{
+      color:black;
+    }
+
+    table{
+        width:max-content;
+        display:grid;
+        border:1px solid;
+        border-collapse: collapse;
+        justify-self: space-evenly;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+    /*.centralizador_tb{
+        height:max-content;
+        width:50%;
+
+        border:3 solid purple;
+
+    }*/
+
+    
+    /*Começo menu perfil*/
+
+
+.accountMenuContainer{
+    height: max-content;
+    width: max-content;
+    /*border: 2px solid red;*/
+    justify-self: right;
+    margin-left:0px;
+    
+}
+
+
+
+
+.icon{
+    position:relative;
+    width:150px;
+    height: 50px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(255,255,255),rgb(231, 231, 231));
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 17px;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+    cursor: pointer; 
+
+}
+
+.icon_container{
+    position: relative;
+    /*border: 2px solid orange;*/
+    /*background-color: #e0e0e0;*/
+    height: fit-content;     
+    width:150px;
+    justify-self: center;
+    
+   
+    
+}
+
+.items_icons{
+    height: 16px;
+    width:16px;
+    align-content: left;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.icon_container .icone_esq, .icon .icone_dir{
+    position:relative;
+    display:inline-block;
+    width: 15px;
+    height:5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.icon_container .icone_esq{
+    left:7px;
+    transform: rotate(45deg);
+}
+
+.icon_container.active .icone_esq{
+    transform: rotate(135deg);
+}
+
+.icon_container .icone_dir{
+    transform: rotate(-45deg);
+}
+
+.icon_container.active .icone_dir{
+    transform: rotate(-135deg);
+}
+
+
+.items{
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+ .items a{
+    position: relative;
+    display: flex;
+    width: 150px;
+    margin-top:7px;
+    justify-content: center;
+    padding: 8px;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: .5s ;
+    transition-delay: calc(60ms*var(--i));
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    left:105%;
+    
+    
+    
+}
+
+.icon_container.active .items a{
+    left: 0%;
+}
+
+
+
+/*fim menu perfil*/
+
+
+
+@media (max-width:430) and (min-height:792px){
+    body{
+        background-image: url("/imgs/teste400px.png");
+    }
+  }
