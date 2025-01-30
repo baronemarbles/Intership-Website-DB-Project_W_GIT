@@ -1,11 +1,15 @@
 $cinza_claro_translu_login :rgba(255, 255, 255, 0.3);
 $bg_white: rgb(233, 233, 233);
+$itemsABG: #ffffff;
+$darkerWhite_iconGradient: rgb(231, 231, 231);
+
+$blackSlightBrighter: rgb(20,20,20);
 
 $padding: ("update":1%,"padrao":20px);
 
 $navMenu_ShadowHover: rgb(201, 201, 201);
 
-$formWhite:rgb(235, 235, 235);
+$formBg:rgb(235, 235, 235);
 $formBorder: #bebebe;
 
 $verde_limao : rgb(102,255,0);
@@ -16,3 +20,5 @@ $verdeBotaoHover:rgb(0, 236, 51);
 $roxoHighlight:  rgb(147, 2, 204);
 $roxoHightlightDarker: rgb(124, 0, 173);
 $textoBotao:rgb(31, 31, 31);
+
+$font_weight: ("normal":400px,"media":500px,"semi-negrito":600px,"negrito":700px);

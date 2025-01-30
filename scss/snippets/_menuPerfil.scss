@@ -1,3 +1,4 @@
+@import "_variables.scss";
 /*Começo menu perfil*/
 
 
@@ -20,7 +21,7 @@
     font-size: 15px;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(white,rgb(231, 231, 231));
+    background-image: linear-gradient(white,$darkerWhite_iconGradient);
     display: flex;
     flex-wrap: wrap;
     padding-top: 17px;
@@ -28,18 +29,6 @@
     box-shadow: 0 0px 10px rgba(0,0,0,0.2);
     cursor: pointer; 
 
-}
-
-.icon_container{
-    position: relative;
-    /*border: 2px solid orange;*/
-    /*background-color: #e0e0e0;*/
-    height: fit-content;     
-    width:150px;
-    justify-self: center;
-    
-   
-    
 }
 
 .items_icons{
@@ -50,32 +39,44 @@
     margin-right: 5px;
 }
 
+.icon_container{
+    position: relative;
+    /*border: 2px solid orange;*/
+    height: fit-content;     
+    width:150px;
+    justify-self: center;
 
-.icon_container .icone_esq, .icon .icone_dir{
-    position:relative;
-    display:inline-block;
-    width: 15px;
-    height:5px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 40px;
-    transition: .5s;
-}
+    & .icone_esq, .icone_dir{
+        position:relative;
+        display:inline-block;
+        width: 15px;
+        height:5px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 40px;
+        transition: .5s;
+    }
+    
+    & .icone_esq {
+        left:7px;
+        transform: rotate(45deg);
+    }
 
-.icon_container .icone_esq{
-    left:7px;
-    transform: rotate(45deg);
-}
+    &.active .icone_esq{
+        transform: rotate(135deg);
+    }
 
-.icon_container.active .icone_esq{
-    transform: rotate(135deg);
-}
+    & .icone_dir{
+        transform: rotate(-45deg);
+    }
 
-.icon_container .icone_dir{
-    transform: rotate(-45deg);
-}
+    &.active .icone_dir{
+        transform: rotate(-135deg);
+    }
 
-.icon_container.active .icone_dir{
-    transform: rotate(-135deg);
+    &.active .items a{
+        left:0%;
+    }
+    
 }
 
 
@@ -95,7 +96,7 @@
     text-decoration: none;
     font-size: 18px;
     color:black;
-    background-color: #ffffff;
+    background-color: $itemsABG;
     border-radius: 5px;
     transition: .5s ;
     transition-delay: calc(60ms*var(--i));

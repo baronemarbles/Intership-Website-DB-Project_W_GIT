@@ -42,29 +42,6 @@ p {
   color: white;
 }
 
-/*fontes*/
-/*
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-.fonteteste{
-    font-family: monospace;
-    font-weight: 400px;
-    font-style: normal;
-}
-/*fim fontes
-*/
-#logo_on_page {
-  width: 320px;
-  display: flex;
-  justify-self: center;
-  margin-bottom: 5px;
-}
-
 /*Começo menu perfil*/
 .accountMenuContainer {
   height: -moz-max-content;
@@ -164,18 +141,111 @@ p {
 }
 
 /*fim menu perfil*/
-h1 {
-  text-align: center;
-  position: static;
-  letter-spacing: 2.5px;
-  color: white;
+.centralized {
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 12px;
 }
 
-h3 {
+input[type=text], input[type=password] {
+  width: 100%;
+  height: 23px;
+  border: 2px solid #bebebe;
+  border-radius: 5px;
   text-align: center;
-  margin-top: 0px;
-  letter-spacing: 1.5px;
+  margin-bottom: 6%;
+  box-shadow: -3px 0px 0px rgb(102, 255, 0);
+  transition: scale 0.2s ease-in-out;
+  display: block;
+}
+
+input:focus {
+  scale: 103%;
+  margin-left: 0%;
+  background-color: white;
   color: black;
+}
+
+form {
+  align-items: center;
+}
+
+.buttn {
+  margin-top: 25px;
+  display: block;
+  cursor: pointer;
+  background-color: rgb(150, 249, 110);
+  color: rgb(31, 31, 31);
+  border-radius: 8px;
+  border: 2px solid rgb(150, 249, 110);
+  transition: box-shadow, background-color 0.1s ease-in-out;
+}
+
+.buttn:hover {
+  background-color: rgb(0, 236, 51);
+  border: 2px solid rgb(0, 236, 51);
+  box-shadow: 0 0 15px rgb(0, 236, 51);
+}
+
+/*Menu Navegação*/
+.navmenu {
+  background-color: rgb(233, 233, 233);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navmenu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  /*border-radius: 12px;*/
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in;
+}
+
+.navmenu a:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+.navmenu .icon {
+  display: none;
+}
+
+#registrar {
+  background-color: rgb(102, 255, 0);
+  height: 100%;
+  color: black;
+  transition: background-color 0.2s ease-in;
+}
+
+#registrar:hover {
+  background-color: rgb(82, 206, 0);
+}
+
+.p_resultados {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid red;
 }
 
 @keyframes botao {
@@ -189,4 +259,4 @@ h3 {
     border: 2px solid rgb(0, 236, 51);
     scale: 1.2em;
   }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=search1.css.map */

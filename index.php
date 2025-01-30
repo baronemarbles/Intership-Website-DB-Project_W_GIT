@@ -17,6 +17,7 @@ if(!isset($_SESSION['username'])) {
         <link rel="logo" href="/imgs/logo.png" type="image/png" sizes="16x16">
         <link rel="stylesheet" href="css/index.css">
         <script src="/javascript/navmenu.js"></script>
+        <script src="/javascript/main.js"></script>
     </head>
     
     <body>

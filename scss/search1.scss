@@ -1,0 +1,27 @@
+@use"./snippets/_variables";
+@import "./snippets/_global";
+@import "./snippets/_menuPerfil.scss";
+@import "./snippets/_formConfig.scss";
+@import "./snippets/_menuNavegacao.scss";
+
+
+.p_resultados{
+    height: 100%;
+    width:100%;
+    background-color: $blackSlightBrighter;
+    border: 2px solid red;
+}
+
+@keyframes botao {
+    0%{
+        background-color: $roxoHighlight;
+        color: white;
+    }
+
+    100%{
+        background-color: $verdeBotaoHover;
+        color:white;
+        border: 2px solid $verdeBotaoHover;
+        scale: 1.2em;
+    }
+}
