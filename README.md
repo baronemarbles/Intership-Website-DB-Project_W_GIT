@@ -1,6 +1,12 @@
 # Intership-Website-DB-Project_
 
 
+<pre>
+  <b>DISCLAIMER</b>
+  <p>This repo is a clone from my <a href='https://github.com/baronemarbles/Intership-Website-DB-Project'> other repository</a> of the project, the first one, which means that the first versions of the code are stored there, but because that at the time i wasn't using git, i uploaded manually the features, updates etc. And moving foward to present, where i'm learning and using git, when i got to push my code into the repository it asked me if i wanted to merge it and i did it. But it came out with a bunch of bugs and the files were all messed up. So, i ended up creating this repo, which is "fresh" and empty, so it wouldn't lead to more bugs when i'm trying to push my commits. But i'm going to fix these bugs! Just wait to see it! </p>
+</pre>
+
+
 This proejct is being directed by me and my intership supervisor and we're aimming to create a database system that stores the company devices informations and that can be acessed remotelly. So it can allow 
 employees of the I.T department, those who have a credential in the users database, to register, update, delete or query a specific device(s), either pulling all the informations about these devices if allowed or a specific one.
 
