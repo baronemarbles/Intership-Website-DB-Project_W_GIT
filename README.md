@@ -3,7 +3,7 @@
 
 <pre>
   <b>DISCLAIMER</b>
-  <p>This repo is a clone from my <a href='https://github.com/baronemarbles/Intership-Website-DB-Project'> other repository</a> of the project, the first one. Which means that the first few versions of the code are stored there, but because of that at the time i wasn't using git, so i ended up uploading manually the features, updates etc. And moving foward to present, where i'm learning and using git, when i got to push my code into the repository(first one) it asks me if i want to merge with the conent in the github repo and i tried it. But it came out with a bunch of bugs and the files were all messed up. So, i ended up creating this repo, which is "fresher" version, so it wouldn't lead to more bugs when i'm trying to push my commits. But i'm going to fix these bugs! Just wait to see it! </p>
+  <p>This repo is a clone from my <a href='https://github.com/baronemarbles/Intership-Website-DB-Project'> other repository</a> of the project, the first one. Which means that the first few versions of the code are stored there, but because of that at the time i wasn't using git, so i ended up uploading manually the features, updates etc. And moving foward to present, where i'm learning and using git, when i got to push my code into the repository(first one) it asks me if i want to merge with the content in the github repo and i tried it. But it came out with a bunch of bugs and the files were all messed up. So, i ended up creating this repo, which is "fresher" version, so it wouldn't lead to more bugs when i'm trying to push my commits. But i'm going to fix these bugs! Just wait to see it! </p>
 </pre>
 
 
